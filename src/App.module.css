@@ -1,0 +1,9 @@
+.app {
+  background-color: var(--pale-blue);
+  background-image: url('/public/images/pattern-background-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  min-width: 100vw;
+  min-height: 100vh;
+}
