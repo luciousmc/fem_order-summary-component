@@ -7,6 +7,9 @@
 --desaturated-blue: hsl(224, 23%, 55%);
 --bright-blue:      hsl(245, 75%, 52%);
 --dark-blue:        hsl(223, 47%, 23%);
+
+/* other */
+--border-radius: 15px;
 }
 
 * {
