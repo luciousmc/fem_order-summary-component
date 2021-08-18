@@ -49,6 +49,14 @@
   text-transform: uppercase;
 }
 
+.orderSummary__body_orderDetails_plan h3 {
+  font-weight: 700;
+}
+
+.orderSummary__body_orderDetails_plan p {
+  color: var(--desaturated-blue);
+}
+
 .orderSummary__body_button {
   width: 100%;
   background-color: var(--bright-blue);
