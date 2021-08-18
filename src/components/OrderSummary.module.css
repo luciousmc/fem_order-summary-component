@@ -44,3 +44,19 @@
   align-items: center;
   border-radius: var(--border-radius);
 }
+
+.orderSummary__body_orderDetails h3::first-letter {
+  text-transform: uppercase;
+}
+
+.orderSummary__body_button {
+  width: 100%;
+  background-color: var(--bright-blue);
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px var(--desaturated-blue);
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
