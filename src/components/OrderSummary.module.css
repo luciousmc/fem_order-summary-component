@@ -37,9 +37,14 @@
   gap: .8rem;
 }
 
+.orderSummary__body_description {
+  color: var(--desaturated-blue);
+  line-height: 1.6rem;
+}
+
 .orderSummary__body_orderDetails {
   background-color: var(--very-pale-blue);
-  padding: 0.8rem;
+  padding:  1.3rem 0.8rem;
   justify-content: space-between;
   align-items: center;
   border-radius: var(--border-radius);
@@ -49,12 +54,25 @@
   text-transform: uppercase;
 }
 
-.orderSummary__body_orderDetails_plan h3 {
+.orderSummary__body_orderDetails_plan > h3 {
   font-weight: 700;
+  font-size: .9rem;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
-.orderSummary__body_orderDetails_plan p {
+.orderSummary__body_orderDetails_plan > p {
   color: var(--desaturated-blue);
+}
+
+.orderSummary__body_orderDetails a {
+  font-size: .875rem;
+  padding-right: 10px;
+  color: var(--bright-blue);
+}
+
+.orderSummary__body_orderDetails a:hover {
+  color: var(--pale-blue);
 }
 
 .orderSummary__body_button {
@@ -67,4 +85,8 @@
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+.orderSummary__body_button:hover {
+  background-color: violet;
 }
