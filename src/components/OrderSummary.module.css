@@ -54,11 +54,15 @@
   text-transform: uppercase;
 }
 
+.orderSummary__body_orderDetails_plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
 .orderSummary__body_orderDetails_plan > h3 {
   font-weight: 700;
   font-size: .9rem;
-  padding-top: 2px;
-  padding-bottom: 2px;
 }
 
 .orderSummary__body_orderDetails_plan > p {
@@ -72,7 +76,7 @@
 }
 
 .orderSummary__body_orderDetails a:hover {
-  color: var(--pale-blue);
+  color: var(--purple);
 }
 
 .orderSummary__body_button {
@@ -80,7 +84,8 @@
   background-color: var(--bright-blue);
   padding: 15px;
   color: white;
-  border-radius: 5px;
+  font-weight: bold;
+  border-radius: 10px;
   box-shadow: 0 5px 15px var(--desaturated-blue);
   outline: none;
   border: none;
@@ -88,5 +93,15 @@
 }
 
 .orderSummary__body_button:hover {
-  background-color: violet;
+  background-color: var(--purple);
+}
+
+.orderSummary__body_cancel {
+  color: var(--desaturated-blue);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.orderSummary__body_cancel:hover {
+  color: black;
 }

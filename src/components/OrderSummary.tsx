@@ -55,7 +55,7 @@ function OrderSummary({data: {headerImg, description, price, planType, title }}:
           Proceed to Payment
         </button>
       
-        <p>Cancel Order</p>
+        <p className={Styles.orderSummary__body_cancel}>Cancel Order</p>
       </div>
     </div>  
   )
